@@ -4,10 +4,11 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #333333;
 }
 
 :root{
-    --color-primary: #7e99b4;
+    --color-primary: #333333;
     --color-secondary: #ffffff;
     --color-border: #ffffff34;
     --font-staat: 'Staatliches', cursive;
@@ -89,7 +90,7 @@ body{
 
 
 .site-banner .banner-area{
-    background: url(./images/bluebonnet.png) no-repeat;
+    background: url(./images/javascript.png) no-repeat;
     background-size: cover;
     width: 100%;
     height: 120vh;
@@ -134,7 +135,9 @@ body{
     font-size: 30px;
     text-align: center;
     margin-left: 300px;
-    border: 4px double #00688B;
+    border: 4px double #CD853F;
+    margin-top: 50px;
+    margin-bottom: 150px;
 
 }
 .container {
@@ -148,6 +151,50 @@ body{
 }
 
 
+html, body {width: auto!important; overflow-x: hidden!important} 
 
 
+.education-image{
+    width: 175px;
+    margin-left: 300px;
 
+}
+
+.scaled{
+    transform: scale(0.9);
+    margin-left: 300px;
+}
+
+section.resume-section {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    max-width: 75rem;
+  }
+  section.resume-section .resume-section-content {
+    width: 100%;
+  }
+
+.experience {
+    font-size: 30px;
+    text-align: center;
+    margin-left: 300px;
+    border: 4px double #00688B;
+}
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+   
+}
+
+.paragraph {
+    color: white;
+}
+
+/* .text-center {
+    align-content: center;
+} */
