@@ -4,7 +4,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: silver;
+    background-color: #E4FCFA;
 }
 
 :root{
@@ -62,10 +62,11 @@ body{
 #header .site-title .navbar-brand{
     letter-spacing: 2px;
     color: var(--color-secondary);
+    margin-top: 25%;
 }
 
 #header .nav-link{
-    margin: .7rem 1rem;
+    /* margin: .7rem 1rem; */
     border-bottom: 1px solid var(--color-border);
     text-transform: uppercase;
 }
@@ -115,6 +116,12 @@ body{
     background-position: 40% 0;
 }
 
+.headpic {
+    max-width: 150px;
+    max-height: 150;
+    border-radius: 50%;
+    border: 2px double black;
+}
 
 @media screen and (min-width: 768px){
     .toggle-button{
@@ -124,17 +131,12 @@ body{
         z-index:0;
     }
 }
-.headpic {
-    max-width: 150px;
-    max-height: 150;
-    border-radius: 50%;
-    border: 2px double black;
-}
+
 
 .skills-subhead{
     font-size: 30px;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 320px;
     border: 4px double lightslategray;
     margin-top: 50px;
     margin-bottom: 150px;
@@ -189,18 +191,54 @@ section.resume-section {
     background-color: silver;
     position: fixed; /* Set the navbar to fixed position */
     
-   
+
 }
 
 .paragraph {
     color: black;
 }
 
-/* .text-center {
-    align-content: center;
-} */
-
 #move{
     right: 90px;
 }
 
+footer.footer {
+    background-color: #E4FCFA;
+  }
+  
+  footer.footer .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: silver;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    margin-right: 10rem;
+  }
+  
+  footer.footer .social-link:hover {
+    background-color: silver;
+    text-decoration: none;
+  }
+
+  .service-icon {
+    background-color: #fff;
+    color: #4095F1;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+/* ul:not(.list-inline) {
+    text-align:center;
+  } */
+
+.text-muted {
+    margin-right: 10rem;
+
+}
