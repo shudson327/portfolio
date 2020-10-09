@@ -111,7 +111,7 @@ body{
     height: 200px;
     border-radius: 50%;
     margin: auto;
-    background: url(./assets/about.jpg) no-repeat;
+    /* background: url(./images/about\ me.png) no-repeat; */
     background-size: 200%;
     background-position: 40% 0;
 }
@@ -202,43 +202,51 @@ section.resume-section {
     right: 90px;
 }
 
-footer.footer {
-    background-color: #E4FCFA;
-  }
-  
-  footer.footer .social-link {
-    display: block;
+
+.list-inline-item {
     height: 4rem;
     width: 4rem;
-    line-height: 4.3rem;
-    font-size: 1.5rem;
-    background-color: silver;
-    transition: background-color 0.15s ease-in-out;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-    margin-right: 10rem;
-  }
-  
-  footer.footer .social-link:hover {
-    background-color: silver;
-    text-decoration: none;
-  }
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-size: 50px;
+    background-color: #E4FCFA;
+    margin-left: 1.5rem;
+}
 
-  .service-icon {
-    background-color: #fff;
-    color: #4095F1;
-    height: 7rem;
-    width: 7rem;
-    display: block;
-    line-height: 7.5rem;
-    font-size: 2.25rem;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  }
-  
-/* ul:not(.list-inline) {
-    text-align:center;
-  } */
+a{
+    color: silver;
+}
+
 
 .text-muted {
-    margin-right: 10rem;
-
+    margin-left: 40rem;
 }
+
+
+
+@media(min-width:768px){
+    .img-reduce {
+      max-width:60%!important;
+    }
+    .img-logo {
+      max-width:10%;
+    }
+  }
+  
+  @media(min-width:768px) and (max-width:992px){
+    .bi.bi-bootstrap-fill {
+      width:7.5vw;
+      height:7.5vh;
+    }
+  }
+  
+  @media(min-width:993px){
+    .bi.bi-bootstrap-fill {
+      width:10vw;
+      height:10vh;
+    }
+  }
+
