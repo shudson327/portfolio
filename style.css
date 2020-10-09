@@ -4,11 +4,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #333333;
+    background-color: silver;
 }
 
 :root{
-    --color-primary: #333333;
+    --color-primary: silver;
     --color-secondary: #ffffff;
     --color-border: #ffffff34;
     --font-staat: 'Staatliches', cursive;
@@ -135,7 +135,7 @@ body{
     font-size: 30px;
     text-align: center;
     margin-left: 300px;
-    border: 4px double #CD853F;
+    border: 4px double lightslategray;
     margin-top: 50px;
     margin-bottom: 150px;
 
@@ -186,15 +186,21 @@ section.resume-section {
 }
 .navbar{
     overflow: hidden;
-    background-color: #333;
+    background-color: silver;
     position: fixed; /* Set the navbar to fixed position */
+    
    
 }
 
 .paragraph {
-    color: white;
+    color: black;
 }
 
 /* .text-center {
     align-content: center;
 } */
+
+#move{
+    right: 90px;
+}
+
