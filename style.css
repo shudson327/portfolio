@@ -218,12 +218,12 @@ section.resume-section {
 
 a{
     color: silver;
-    margin-left: -2rem;
+    /* margin-left: -2rem; */
 }
 
 
 .text-muted {
-    margin-left: 40rem;
+    margin-left: 53rem;
 }
 
 
@@ -263,7 +263,11 @@ a{
   }
 
 
-.text-muted {
-    margin-left: -5rem;
+.rowbtn {
+    margin-right: 17rem;
+
 }
 
+.fab {
+    position: relative;
+}
