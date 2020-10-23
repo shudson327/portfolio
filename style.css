@@ -213,7 +213,7 @@ section.resume-section {
     line-height: 1;
     font-size: 50px;
     background-color: #E4FCFA;
-    margin-left: 1.5rem;
+    /* margin-left: rem; */
 }
 
 a{
@@ -264,7 +264,7 @@ a{
 
 
 .rowbtn {
-    margin-right: 17rem;
+    margin-right: 21rem;
 
 }
 
