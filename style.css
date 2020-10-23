@@ -136,10 +136,11 @@ body{
 .skills-subhead{
     font-size: 30px;
     text-align: center;
-    margin-left: 320px;
+    margin-left: 130px;
     border: 4px double lightslategray;
     margin-top: 50px;
     margin-bottom: 150px;
+    width: 100%;
 
 }
 .container {
@@ -164,7 +165,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
 .scaled{
     transform: scale(0.9);
-    margin-left: 300px;
+    margin-left: 322px;
 }
 
 section.resume-section {
@@ -196,11 +197,10 @@ section.resume-section {
 
 .paragraph {
     color: black;
+    
 }
 
-#move{
-    right: 90px;
-}
+
 
 
 .list-inline-item {
@@ -218,6 +218,7 @@ section.resume-section {
 
 a{
     color: silver;
+    margin-left: -2rem;
 }
 
 
@@ -226,7 +227,7 @@ a{
 }
 
 
-
+/* 
 @media(min-width:768px){
     .img-reduce {
       max-width:60%!important;
@@ -248,5 +249,21 @@ a{
       width:10vw;
       height:10vh;
     }
+  } */
+
+
+  .row {
+    margin-top: 4rem;
+    margin-left: 22rem;
   }
+
+  .card {
+    margin-top: 1rem;
+    margin-left: -2rem;
+  }
+
+
+.text-muted {
+    margin-left: -5rem;
+}
 
