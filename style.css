@@ -5,6 +5,8 @@ body{
     margin: 0;
     padding: 0;
     background-color: #E4FCFA;
+    overflow: hidden;
+    width: 90%;
 }
 
 :root{
@@ -82,6 +84,7 @@ body{
     top: 25px;
     right: 20px;
     border: 1px solid var(--color-border);
+    
 }
 
 .toggle-left{
@@ -129,6 +132,7 @@ body{
     }
     #header{
         z-index:0;
+        
     }
 }
 
@@ -136,7 +140,7 @@ body{
 .skills-subhead{
     font-size: 30px;
     text-align: center;
-    margin-left: 130px;
+    margin-left: 80px;
     border: 4px double lightslategray;
     margin-top: 50px;
     margin-bottom: 150px;
@@ -223,7 +227,8 @@ a{
 
 
 .text-muted {
-    margin-left: 53rem;
+    margin-left: 25rem;
+    text-align: center;
 }
 
 
@@ -254,20 +259,28 @@ a{
 
   .row {
     margin-top: 4rem;
-    margin-left: 22rem;
+    margin-left: 18rem;
   }
 
   .card {
     margin-top: 1rem;
     margin-left: -2rem;
-  }
+    width: 350px;
+    height: 400px;
+
+}
 
 
 .rowbtn {
-    margin-right: 21rem;
+    margin-left: -26rem;
 
 }
 
 .fab {
     position: relative;
 }
+
+.btn-info {
+    align-self: flex-end;
+}
+
