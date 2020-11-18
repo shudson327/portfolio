@@ -165,13 +165,8 @@ body{
     margin-left: 300px;
     margin-top: 40px;
     margin-bottom: 25px;
-    /* align-content: center; */
     width: 100%;
     align-content: space-evenly;
-}
-
-.card-columns {
-    margin-left: 300px;
 }
 
 
@@ -251,29 +246,32 @@ a{
 
   .card {
     margin-top: 1rem;
-    margin-left: -2rem;
-    width: 400px;
-    height: 400px;
+    width: 250px;
+    height: 350px;
 
 }
 
-
-.rowbtn {
-    margin-left: -28rem;
-
+.card-columns {
+    column-count: 3;
+    margin-right: 0;
+    margin-left: 150px;
 }
 
-/* a.btn.btn-info.btn-block{
-    padding-left: 0;
-    padding-right: 0;
-} */
+.card:hover {
+    transform: translateY(-0.5%);
+    box-shadow: 0rem 2rem 2rem darkslategrey;
+  }
+
+
+
 
 .btn-info {
     vertical-align: text-bottom;
     position: absolute;
     bottom: 0;
-    width: 215px;
-    align-items: center;
+    width: 100%;
+    /* align-items: center; */
+    margin-left: -1.25rem;
  
 
 }
@@ -288,11 +286,12 @@ a{
 .text-muted {
     align-items: center;
 }
-
-.card:hover {
-    transform: translateY(-0.5%);
-    box-shadow: 0rem 2rem 2rem darkslategrey;
-  }
-
  
+.mybtn {
+    color: black;
+    margin-left: -10rem;
+}
 
+.footer {
+    margin-left: 5rem;
+}
